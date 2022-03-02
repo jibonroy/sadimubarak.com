@@ -1,0 +1,42 @@
+body{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 16pt;
+}
+fieldset{
+    max-width: 350px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: rgba(129, 255, 129, 0.5);
+}
+legend.l1{
+    font-weight: bold;
+    width: 200px;
+    font-size: 24pt;
+    background-color: yellow;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+.inputs{
+    border: 2px solid;
+    border-radius: 3px;
+    height: 25px;
+}
+.btn{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.checkbox1{
+    cursor: pointer;
+}
+
+p{
+    background-color: white;
+}

@@ -1,0 +1,217 @@
+body{
+    background: fixed;
+    background-color: rgb(255, 255, 255);
+    margin: 2.5%;
+}
+/* This is a box */
+.box{
+    width: 1200px;
+    height: 800px;
+    border-radius: 15px;
+    background-color: rgb(117, 117, 117);
+    display: flex;
+    text-align: center;
+    box-shadow: 0px 5px 10px 5px rgba(41, 41, 41, 0.377);
+}
+
+
+/*detailbox start */
+.box .detailbox {
+    width: 850px;
+    height: 795px;
+    border: 2px solid;
+    border-right: none;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    
+}
+
+.head1{
+    background-color: rgba(33, 255, 33, 0.438);
+    display: inline-block;
+    width: 700px;
+    height: 90px;
+    border: 5px groove;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 50px;
+}
+.box .detailbox .p1{
+    color: rgb(5, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(255, 238, 0);
+    
+}
+
+
+.box .detailbox .link{
+    display: inline-block;
+    width: 200px;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(0, 195, 255);
+    font-size: 18pt;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.descbox{
+    display: block;
+    height: 400px;
+    width: 700px;
+    background-color: rgba(0, 102, 255, 0.507);
+    margin-top: 50px;
+    border: 3px dashed;
+    border-radius: 10px;
+}
+.descbox:hover{
+    background-color: rgba(0, 0, 255, 0.411);
+    transition-duration: 1s;
+    
+}
+div.descbox p{
+    display: inline;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    margin-top: 50px;
+    margin: 50px;
+}
+
+div p a{
+    color: rgb(9, 255, 0);
+    font-size: 18pt;
+}
+
+div p a:hover{
+    color: rgb(255, 255, 255);
+}
+/* detailbox close */
+div .descbox u{
+    display: inline-block;
+    color: yellow;
+    font-size: 24pt;
+    
+}
+h1.login{
+    display: inline-block;
+    color: white;
+    border: 3px solid;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: blue;
+}
+
+h1.login:hover{
+    background-color: red;
+    transition-duration: 0.5s;
+    
+}
+
+.follow{
+    background-color: aqua;
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 16pt;
+    border: 5px groove;
+    border-radius: 10px;
+    border-color: red;
+}
+/* This is loginbox*/
+.box .loginbox{
+    width: 345px;
+    height: 795px;
+    border: 2px solid;
+    border-left: none;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: rgb(0, 225, 255);
+    display: inline-block;
+    font-size: 16pt;
+    
+}
+
+div .loginbox p.p1{
+    font-size: 24pt;
+    color: black;
+}
+
+.loginform{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgb(241, 241, 241);
+    padding-top: 20px;
+    box-shadow: 0px 1px 2px 0px black;
+    color: rgb(255, 0, 0);
+}
+.loginform:hover{
+    background-color: rgb(255, 255, 255);
+    transition-duration: .5s;
+    box-shadow: 2px 1px 10px 0px black;
+}
+
+.loginform .inputs{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    border-bottom: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    background-color: rgb(227, 242, 255);
+}
+.loginform .inputs:hover{
+    background-color: rgb(173, 216, 255);
+    transition-duration: 1s;
+}
+.btn{
+    display: flex;
+}
+.loginform .button1{
+    display: inline-block;
+    border: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 42px;
+}
+.loginform .button2{
+    display: inline-block;
+    border: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 42px;
+}
+
+.loginform .button1:hover{
+    background-color: rgb(0, 185, 0);
+    transition-duration: 0.5s;
+}
+.loginform .button2:hover{
+    background-color: rgb(0, 185, 0);
+    transition-duration: 0.5s;
+}
+.a1,.a2{
+color: blue;    
+}
+
+.myP{
+    color: black;
+}
